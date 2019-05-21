@@ -78,10 +78,10 @@ print("Times")
 #> [1] "Times"
 print(attr(jac_soln,"elapsed_time"))
 #> elapsed 
-#>    0.25
+#>   0.257
 print(attr(gs_soln,"elapsed_time"))
 #> elapsed 
-#>   0.009
+#>   0.012
 ```
 
 ``` r
@@ -96,5 +96,5 @@ print(jac_error)
 
 print(attr(jac_soln,"elapsed_time"))
 #> elapsed 
-#>  50.151
+#>  47.113
 ```
